@@ -28,4 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
+    - name: Container Structure Tests
+      uses: brpaz/structure-tests-action@v1.1.2
+      with:
+        image: job/sample
+        configFile: config.yaml
+
