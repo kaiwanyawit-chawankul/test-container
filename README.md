@@ -1,4 +1,5 @@
 # test-container
+[![Node.js CI](https://github.com/kaiwanyawit-chawankul/test-container/actions/workflows/node.js.yml/badge.svg)](https://github.com/kaiwanyawit-chawankul/test-container/actions/workflows/node.js.yml)
 
 ```
 colima start
