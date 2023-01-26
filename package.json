@@ -1,0 +1,20 @@
+{
+  "name": "test-container",
+  "version": "1.0.0",
+  "description": "test container",
+  "main": "index.js",
+  "scripts": {
+    "build":"docker build . -t job/sample",
+    "test": "container-structure-test test --image job/sample --config config.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiwanyawit-chawankul/test-container.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiwanyawit-chawankul/test-container/issues"
+  },
+  "homepage": "https://github.com/kaiwanyawit-chawankul/test-container#readme"
+}
