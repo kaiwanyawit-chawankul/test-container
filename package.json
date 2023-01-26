@@ -4,7 +4,7 @@
   "description": "test container",
   "main": "index.js",
   "scripts": {
-    "build":"docker build . -t job/sample",
+    "build": "docker build . -t job/sample",
     "test": "container-structure-test test --image job/sample --config config.yaml"
   },
   "repository": {
